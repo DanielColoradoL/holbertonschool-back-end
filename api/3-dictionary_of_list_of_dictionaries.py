@@ -27,5 +27,5 @@ for user in user_resp.json():
         ls.append(tmp_dic)
     output_dic[user_id] = ls
 
-with open(".todo_all_employees.json", "w", encoding="utf-8") as f:
+with open("todo_all_employees.json", "w", encoding="utf-8") as f:
     json.dump(output_dic, f)
