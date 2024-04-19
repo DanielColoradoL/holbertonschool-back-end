@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-import sys
-import requests
+"""Export data in the JSON format."""
 import json
+import requests
+import sys
+
 
 if len(sys.argv) < 2:
     print("Usage: ./0-gather_data_from_an_API.py <employee_id>")

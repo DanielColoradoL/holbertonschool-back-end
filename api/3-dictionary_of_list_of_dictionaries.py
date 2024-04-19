@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-import requests
 import json
+import requests
+
 
 user_info_url = "https://jsonplaceholder.typicode.com/users"
 todo_url = "https://jsonplaceholder.typicode.com/todos"
